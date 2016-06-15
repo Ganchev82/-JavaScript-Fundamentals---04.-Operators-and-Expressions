@@ -1,0 +1,13 @@
+function solve(args)
+{
+	var test = args%2;
+	
+  if(test==0)
+	{
+		console.log('even '+args);
+	}
+	else
+	{
+		console.log('odd '+args);
+	}
+}
